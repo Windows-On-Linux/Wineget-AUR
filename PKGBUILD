@@ -12,7 +12,7 @@ arch=("x86_64")
 provides=("wineget")
 conflicts=("wineget")
 
-source=("https://github.com/Windows-On-Linux/Wineget/releases/download/v$pkgver/wineget-$pkgver-x86_64.tar.gz")
+source=("https://github.com/Windows-On-Linux/Wineget/releases/download/$pkgver/wineget-$pkgver-x86_64.tar.gz")
 sha256sums=("dfa36149238d9e50ce90d847a060f27ad8fba9fc74a09ad2ba42b5d8114fe2eb")
 
 package() {
